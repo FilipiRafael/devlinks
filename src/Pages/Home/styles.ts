@@ -99,4 +99,8 @@ export const Loader = styled.div`
   bottom: 0;
   left: 0;
   right: 0;
+
+  @media (max-width: 600px) {
+    width: 250px;
+  }
 `;
